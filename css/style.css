@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f8;
+  color: #333;
+}
+
+/* TOPO */
+.topo {
+  background: #ffffff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ffd6e7;
+}
+
+.topo h1 {
+  color: #e91e63;
+}
+
+.topo a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+  background: linear-gradient(135deg, #ff4fa3, #ffc1e3);
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+}
+
+/* BOTÃO */
+.botao {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* CATEGORIAS */
+.categorias {
+  padding: 40px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* PRODUTOS */
+.produtos {
+  padding: 50px;
+  text-align: center;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card-produto {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card-produto h3 {
+  margin-bottom: 10px;
+}
+
+.card-produto button {
+  background: #e91e63;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.logo{
+  font-size: '28px;
+  color:#e91e63;
+  margin:0;
+  height:150px;
+}
+
+.slogan{
+  font-size:14px;
+  color:#777;
+  margin:0;
+}
+
+.whatsapp-fixo{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:30px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
